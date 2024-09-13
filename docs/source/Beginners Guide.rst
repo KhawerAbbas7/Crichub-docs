@@ -13,3 +13,42 @@ You can change the current prefix by:
 Requirements
 ************
 #. Manage Messages Permission.
+
+.. _Creating your first game:
+Create
+------
+This command is used to create game.
+.. code-block:: console
+  @CricHub#9872 create
+Aliases
+*******
+#. C
+
+Join
+----
+This command is used to join a game.
+.. code-block:: console
+  @CricHub#9872 join
+Aliases
+*******
+#. J
+
+Shuffle 
+-------
+This command is used to shuffle the players list and is necessary to run before starting the game.
+.. code-block:: console
+  @CricHub#9872 shuffle
+Aliases
+*******
+#. SF
+Can only be run by:
+*******************
+#. Host 
+Player_list
+-----------
+This command is used to view the Player List.
+.. code-block:: console
+  @CricHub#9872 player_list
+Aliases
+*******
+#. PL
