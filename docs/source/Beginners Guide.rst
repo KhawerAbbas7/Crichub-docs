@@ -7,11 +7,13 @@ So the first thing after adding Crichub to your server you would like to do is c
 You can check the correct prefix by:
 
 .. code-block:: console
+
    @CricHub#9872 prefix 
 
 You can change the current prefix by:
 
 .. code-block:: console
+
    @CricHub#9872 prefix .
   
 Requirements
@@ -26,6 +28,7 @@ Debut
 
 This command is used to define your roleset in the game.
 .. code-block:: console
+
    @CricHub#9872 debut
 .. warning:: This can only be done once in your career so choose wisely.
 
@@ -35,6 +38,7 @@ Create
 This command is used to create game.
 
 .. code-block:: console
+
    @CricHub#9872 create
   
 Aliases
@@ -48,6 +52,7 @@ Join
 This command is used to join a game.
 
 .. code-block:: console
+
    @CricHub#9872 join
 
 Aliases
@@ -61,6 +66,7 @@ Shuffle
 This command is used to shuffle the players list and is necessary to run before starting the game.
 
 .. code-block:: console
+
    @CricHub#9872 shuffle
 
 Aliases
@@ -79,6 +85,7 @@ Player_list
 This command is used to view the Player List.
 
 .. code-block:: console
+
    @CricHub#9872 player_list
 
 Aliases
@@ -92,6 +99,7 @@ Change_host
 This command is used to change the host.
 
 .. code-block:: console
+
    @CricHub#9872 change_host @92.97
 
 Aliases
@@ -112,11 +120,13 @@ This command is used to change captain of a team.
 If used by Host:
 
 .. code-block:: console
+
    @CricHub#9872 change_captain <new captain> <Team Number 1|2>
 
 If used by captain:
 
 .. code-block:: console
+
    @CricHub#9872 change_captain <new captain> 
 
 Aliases
@@ -136,6 +146,7 @@ Toss
 This command is used to conduct toss.
 
 .. code-block:: console
+
    @CricHub#9872 toss
 
 Aliases
@@ -154,6 +165,7 @@ Set_overs
 This command is used to set the maximum overs for an inning.
 
 .. code-block:: console
+
    @CricHub#9872 set_overs <Overs >1|<=20>
 
 Aliases
@@ -172,6 +184,7 @@ Start
 This command is used to initiate a game.
 
 .. code-block:: console
+
    @CricHub#9872 start
 
 Aliases
@@ -190,6 +203,7 @@ Yeet
 This command is used to delete a game.
 
 .. code-block:: console
+
    @CricHub#9872 yeet
 
 ..NOTE::  This can only be used if both captains agree after the game has started.
