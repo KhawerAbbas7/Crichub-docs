@@ -10,3 +10,11 @@ Crichub's objective is to create an inclusive environment on Discord where every
 Useful Links
 ------------
 * `Support Server <https://discord.gg/AgkCJX6XEA>`_
+Contents
+--------
+
+.. toctree::
+
+   Beginners Guide
+   Economy
+   Supporters 
