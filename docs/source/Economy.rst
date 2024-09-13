@@ -52,7 +52,7 @@ Cooldowns
 This Command allows you to check your current cooldowns.
 
 .. code-block:: console
-  @CricHub#9872 cooldowns
+    @CricHub#9872 cooldowns
 
 Aliases
 *******
