@@ -52,3 +52,30 @@ This command is used to view the Player List.
 Aliases
 *******
 #. PL
+Change_host
+-----------
+This command is used to change the host.
+.. code-block:: console
+  @CricHub#9872 change_host @92.97
+Aliases
+*******
+#. CH
+Can only be run by:
+*******************
+#. Host 
+Change_captain
+-----------
+This command is used to change captain of a team.
+If used by Host:
+.. code-block:: console
+  @CricHub#9872 change_captain <new captain> <Team Number 1|2>
+If used by captain:
+.. code-block:: console
+  @CricHub#9872 change_captain <new captain> 
+Aliases
+*******
+#. CC
+Can only be run by:
+*******************
+#. Host 
+#. Captain 
