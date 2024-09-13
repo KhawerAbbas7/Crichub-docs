@@ -79,3 +79,50 @@ Can only be run by:
 *******************
 #. Host 
 #. Captain 
+Toss
+----
+This command is used to conduct toss.
+.. code-block:: console
+  @CricHub#9872 toss
+Aliases
+*******
+#. T 
+Can only be run by:
+*******************
+#. Host 
+Set_overs
+---------
+This command is used to set the maximum overs for an inning.
+.. code-block:: console
+  @CricHub#9872 set_overs <Overs >1|<=20>
+Aliases
+*******
+#. SO 
+Can only be run by:
+*******************
+#. Host 
+Start
+-----
+This command is used to initiate a game.
+.. code-block:: console
+  @CricHub#9872 start
+Aliases
+*******
+#. S 
+Can only be run by:
+*******************
+#. Host 
+Yeet
+-----
+This command is used to delete a game.
+
+.. code-block:: console
+  @CricHub#9872 yeet
+..NOTE::  This can only be used if both captains agree after the game has started.
+Aliases
+*******
+#. S 
+Can only be run by:
+*******************
+#. Host (Before the game commencement)
+#. Captains (After the game commencement)
