@@ -37,7 +37,7 @@ Transfer
 This Command allows you to send CH Coins to another user.
 
 .. code-block:: console
-  @CricHub#9872 transfer @92.97 10K
+   @CricHub#9872 transfer @92.97 10K
 
 .. warning:: This transfer is irreversible.
 
