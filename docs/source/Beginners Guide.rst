@@ -15,6 +15,12 @@ Requirements
 #. Manage Messages Permission.
 
 .. _Creating your first game:
+Debut 
+------
+This command is used to define your roleset in the game.
+.. code-block:: console
+  @CricHub#9872 debut
+.. warning:: This can only be done once in your career so choose wisely.
 Create
 ------
 This command is used to create game.
