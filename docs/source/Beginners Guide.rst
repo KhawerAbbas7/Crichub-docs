@@ -27,6 +27,7 @@ Debut
 ------
 
 This command is used to define your roleset in the game.
+
 .. code-block:: console
 
    @CricHub#9872 debut
