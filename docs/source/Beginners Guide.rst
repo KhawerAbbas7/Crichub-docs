@@ -8,7 +8,7 @@ You can check the correct prefix by:
 
 .. code-block:: console
 
-   @CricHub#9872 prefix .
+   @CricHub#9872 prefix 
 
 You can change the current prefix by:
 
