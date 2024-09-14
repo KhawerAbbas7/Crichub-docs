@@ -6,7 +6,7 @@
 
 /* Dark mode styles */
 body {
-    background-color: #25272b;
+    background-color: #25272b !important;
     color: var(--text-color);
 }
 
