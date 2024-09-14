@@ -1,16 +1,16 @@
 :root {
-    --body-bg-color: #111;
-    --text-color: #2267d6;
-    --code-bg-color: #222;
+    --body-bg-color: #111 !important;
+    --text-color: #ddd !important;
+    --code-bg-color: #222 !important;
 }
 
 /* Dark mode styles */
 body {
-    background-color: #25272b !important;
-    color: var(--text-color);
+    background-color: var(--body-bg-color) !important;
+    color: var(--text-color) !important;
 }
 
-code {
-    background-color: var(--code-bg-color);
-    color: var(--text-color);
+pre, code {
+    background-color: var(--code-bg-color) !important;
+    color: var(--text-color) !important;
 }
