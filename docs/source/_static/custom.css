@@ -1,4 +1,4 @@
-@import 'theme.css'
+@import 'sphinx_rtd_theme.css'
 :root {
     --body-bg-color: #111 !important;
     --text-color: #ddd !important;
