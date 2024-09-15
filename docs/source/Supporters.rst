@@ -14,3 +14,5 @@ I am extremely thankful to those who have supported this bot by any kind special
      - Beta Tester
    * - hassaan.malik
      - Graphics Work
+   * - tammy_6969
+     - Premium User
