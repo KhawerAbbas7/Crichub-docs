@@ -6,7 +6,7 @@
 }
 
 /* Dark mode styles */
-.wy-side-nav-search {
+.wy-side-nav-search,  body {
     background-color: var(--body-bg-color) ;
     color: var(--text-color) ;
 }
