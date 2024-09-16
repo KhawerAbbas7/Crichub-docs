@@ -1,4 +1,4 @@
-@import 'theme.css'
+
 :root {
     --body-bg-color: #111 !important;
     --text-color: #ddd !important;
@@ -6,7 +6,7 @@
 }
 
 /* Dark mode styles */
-html body {
+html, body {
     background-color: var(--body-bg-color) ;
     color: var(--text-color) ;
 }
