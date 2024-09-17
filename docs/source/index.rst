@@ -14,7 +14,7 @@ Contents
 --------
 
 .. toctree::
-
+   :maxdepth: 1
    Beginners Guide
    Economy
    Supporters 
