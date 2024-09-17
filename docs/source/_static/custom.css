@@ -1,7 +1,7 @@
 @import 'theme.css';
 
 :root {
-    --body-bg-color: #111 !important;
+    --body-bg-color: #1c1b1b !important;
     --text-color: #171a1f !important;
     --code-bg-color: #222 !important;
 }
