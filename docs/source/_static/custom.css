@@ -1,4 +1,4 @@
-
+@import 'theme.css';
 :root {
     --body-bg-color: #111 !important;
     --text-color: #171a1f !important;
