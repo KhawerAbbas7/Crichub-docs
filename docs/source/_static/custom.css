@@ -1,18 +1,7 @@
 @import 'theme.css';
 
-:root {
-    --body-bg-color: #1c1b1b !important;
-    --text-color: #171a1f !important;
-    --code-bg-color: #222 !important;
-}
 
 /* Dark mode styles */
 body {
-    background-color: var(--body-bg-color) !important;
-    color: var(--text-color);
-}
-
-pre, code {
-    background-color: var(--code-bg-color);
-    color: var(--text-color);
+    background-color: #1c1b1b !important;
 }
