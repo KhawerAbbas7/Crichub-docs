@@ -1,47 +1,81 @@
-:root {
-    --sd-color-primary: #007bff;
-    --sd-color-secondary: #6c757d;
-    --sd-color-success: #28a745;
-    --sd-color-info: #17a2b8;
-    --sd-color-warning: #f0b37e;
-    --sd-color-danger: #dc3545;
-    --sd-color-light: #0e2414;
-    --sd-color-muted: #6c757d;
-    --sd-color-dark: #212529;
-    --sd-color-primary-highlight: #0069d9;
-    --sd-color-secondary-highlight: #5c636a;
-    --sd-color-success-highlight: #228e3b;
-    --sd-color-info-highlight: #148a9c;
-    --sd-color-warning-highlight: #cc986b;
-    --sd-color-danger-highlight: #bb2d3b;
-    --sd-color-light-highlight: #d3d4d5;
-    --sd-color-muted-highlight: #5c636a;
-    --sd-color-dark-highlight: #1c1f23;
-    --sd-color-primary-text: #fff;
-    --sd-color-secondary-text: #fff;
-    --sd-color-success-text: #fff;
-    --sd-color-info-text: #fff;
-    --sd-color-warning-text: #212529;
-    --sd-color-danger-text: #fff;
-    --sd-color-light-text: #212529;
-    --sd-color-muted-text: #fff;
-    --sd-color-dark-text: #fff;
-    --sd-color-shadow: rgba(0, 0, 0, 0.15);
-    --sd-color-card-border: rgba(0, 0, 0, 0.125);
-    --sd-color-card-border-hover: hsla(231, 99%, 66%, 1);
-    --sd-color-card-background: transparent;
-    --sd-color-card-text: inherit;
-    --sd-color-card-header: transparent;
-    --sd-color-card-footer: transparent;
-    --sd-color-tabs-label-active: hsla(231, 99%, 66%, 1);
-    --sd-color-tabs-label-hover: hsla(231, 99%, 66%, 1);
-    --sd-color-tabs-label-inactive: hsl(0, 0%, 66%);
-    --sd-color-tabs-underline-active: hsla(231, 99%, 66%, 1);
-    --sd-color-tabs-underline-hover: rgba(178, 206, 245, 0.62);
-    --sd-color-tabs-underline-inactive: transparent;
-    --sd-color-tabs-overline: rgb(222, 222, 222);
-    --sd-color-tabs-underline: rgb(222, 222, 222);
-    --sd-fontsize-tabs-label: 1rem;
-    --sd-fontsize-dropdown-title: 1rem;
-    --sd-fontweight-dropdown-title: 700;
+/*!
+ * @name          Readthedocs
+ * @namespace     http://userstyles.org
+ * @description	  Styles the documentation pages hosted on Readthedocs.io
+ * @author        Anthony Post
+ * @homepage      https://userstyles.org/styles/142968
+ * @version       0.20170529055029
+ *
+ * Modified by Aloïs Dreyfus: 20190726-1417
+ */
+a:visited {
+	color: #bf84d8;
 }
+
+pre {
+	background-color: #2d2d2d; !important;
+}
+
+.wy-nav-content {
+	background: #3c3c3c;
+	color: aliceblue;
+}
+
+.method dt, .class dt, .data dt, .attribute dt, .function dt,
+	.descclassname, .descname {
+	background-color: #525252 !important;
+	color: white !important;
+}
+
+.toc-backref {
+	color: grey !important;
+}
+
+code.literal {
+	background-color: #2d2d2d !important;
+	border: 1px solid #6d6d6d !important;
+}
+
+.wy-nav-content-wrap {
+	background-color: rgba(0, 0, 0, 0.6) !important;
+}
+
+.sidebar {
+	background-color: #191919 !important;
+}
+
+.sidebar-title {
+	background-color: #2b2b2b !important;
+}
+
+.xref, .py-meth {
+	color: #7ec3e6 !important;
+}
+
+.admonition, .note {
+	background-color: #2d2d2d !important;
+}
+
+.wy-side-nav-search {
+	background-color: inherit;
+	border-bottom: 1px solid #fcfcfc;
+}
+
+.wy-table thead, .rst-content table.docutils thead, .rst-content table.field-list thead {
+    background-color: #b9b9b9;
+}
+
+.wy-table thead th, .rst-content table.docutils thead th, .rst-content table.field-list thead th {
+    border: solid 2px #e1e4e5;
+}
+
+.wy-table thead p, .rst-content table.docutils thead p, .rst-content table.field-list thead p {
+    margin: 0;
+}
+
+.wy-table-odd td, .wy-table-striped tr:nth-child(2n-1) td, .rst-content table.docutils:not(.field-list) tr:nth-child(2n-1) td {
+    background-color: #343131;
+}
+
+.highlight .m { color: inherit } /* Literal.Number */
+.highlight .nv { color: #3a7ca8 } /* Name.Variable */
