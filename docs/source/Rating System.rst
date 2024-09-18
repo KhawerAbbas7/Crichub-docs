@@ -67,7 +67,7 @@ Let's explore K values First:
      * K Value for Bowler
      
    - * Wicket 
-     * 1
+     * 4
      * 10
    - * 1,2,3
      * 0.5
