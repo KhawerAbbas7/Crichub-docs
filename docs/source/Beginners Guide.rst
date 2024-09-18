@@ -2,6 +2,7 @@ Beginners Guide
 ===============
 Setting Up Prefix
 ------------------
+
 So the first thing after adding Crichub to your server you would like to do is check the prefix. Default prefix for Crichub is ``,`` and you can access it by mentioning it.
 
 You can check the correct prefix by:
