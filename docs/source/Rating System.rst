@@ -14,4 +14,4 @@ First of all we need an expected score for each delivery, let's take an example 
 
 .. math::
 
-   \[E_A = \\frac{1}{1 + 10^{(R_B - R_A)/400}}\]
+   E_A = \frac{1}{1 + 10^{(R_B - R_A)/400}}
