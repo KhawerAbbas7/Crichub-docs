@@ -19,3 +19,4 @@ Contents
    Beginners Guide
    Economy
    Supporters 
+   Rating System 
