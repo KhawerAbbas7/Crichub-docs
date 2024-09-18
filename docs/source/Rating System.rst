@@ -68,7 +68,7 @@ Let's explore K values First:
      
    - * Wicket 
      * 1
-     * 6
+     * 10
    - * 1,2,3
      * 7
      * 0.03
