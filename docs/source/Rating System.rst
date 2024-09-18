@@ -17,5 +17,6 @@ First of all we need an expected score which is calculated:
    E_A = \frac{1}{1 + 10^{(R_B - R_A)/400}}
 
 **Where**
-  - :math:`R_A'` is the new rating for Player A,
+  - :math:`R_A` is the new rating for Player A,
   - :math:`R_B` is the rating of Player B.
+
