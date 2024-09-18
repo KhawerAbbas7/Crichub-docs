@@ -67,17 +67,17 @@ Let's explore K values First:
      * K Value for Bowler
      
    - * Wicket 
-     * 4
+     * 0.7
      * 10
    - * 1,2,3
-     * 0.5
+     * 0.05
      * 0.03
    - * Boundaries 
-     * 0.7
+     * 0.07
      * 0.06
    - * Dots
      * 1
-     * 0.3
+     * 0.03
      
      
 Each Run is a loss for bowler and win for batter, dot and wickets are win for bowler and loss for batter.
