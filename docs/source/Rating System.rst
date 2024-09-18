@@ -31,3 +31,22 @@ Then we just update the rating after a outcome. Outcome is 1 for win, 0.5 For Dr
   - :math: `K'` is a constant that controls how much the ratings change (This is very important in Crichub, we will later explore it)
   - :math: `S_A` is the actual result for Player A (1 for a win, 0 for a loss, 0.5 for a draw),
   - :math: `E_A` is the expected score for Player A.
+  
+  
+Let's explore an example let's assume that Player A has the rating of 1500 and Player B has the rating of 3000.
+
+So let's first calculate the expected score for Player A: 
+
+.. math::
+
+   E_A = \frac{1}{1 + 10^{(3000 - 1500)/400}} = 0.0001777963
+   
+Since Player A has less rating so it assumes that Player A has a very low chance of winning.
+
+Now let's calculate the new rating for Player if he wins with K value of 30 
+
+.. math::
+
+   R_A' = 1500 + 30 \times (1 - 0.0001777963) = 1529.9818638749 
+   
+.. note:: This is the reason you see All-rounders getting a steep jump in comparison to proper bowler or batter
