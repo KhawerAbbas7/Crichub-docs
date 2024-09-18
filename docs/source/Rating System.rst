@@ -50,3 +50,32 @@ Now let's calculate the new rating for Player if he wins with K value of 30
    R_A' = 1500 + 30 \times (1 - 0.0001777963) = 1529.9818638749 
    
 .. note:: This is the reason you see All-rounders getting a steep jump in comparison to proper bowler or batter
+
+How This Works in Crichub
+--------------------------
+
+I take the same system but with modification since I have to update it ball by ball, I have different K for each of the outcome for both batter and bowler.
+
+Let's explore K values First:
+
+.. list-table:: K Values
+   :widths: 40 30 30
+   :header-rows: 1
+   
+   - * Outcome 
+     * K Value for Batter
+     * K Value for Bowler
+     
+   - * Wicket 
+     * 1
+     * 6
+   - * 1,2,3
+     * 2
+     * 0.03
+   - * Boundaries 
+     * 3
+     * 0.06
+   - * Dots
+     * 0.0001
+     * 0.3
+     
