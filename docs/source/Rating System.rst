@@ -20,3 +20,12 @@ First of all we need an expected score which is calculated:
   - :math:`R_A` is the new rating for Player A,
   - :math:`R_B` is the rating of Player B.
 
+Then we just update the rating after a outcome. Outcome is 1 for win, 0.5 For Draw, 0 for a loss.
+
+.. math::
+
+   R_A' = R_A + K \times (S_A - E_A)
+   
+**Where**
+  - :math: `R_A'` is the new rating for Player A,
+  - :math: `K'` is a constant that controls how much the ratings change
