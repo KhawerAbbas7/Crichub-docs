@@ -27,10 +27,10 @@ Then we just update the rating after a outcome. Outcome is 1 for win, 0.5 For Dr
    R_A' = R_A + K \times (S_A - E_A)
    
 **Where**
-  - :math: `R_A'` is the new rating for Player A,
-  - :math: `K'` is a constant that controls how much the ratings change (This is very important in Crichub, we will later explore it)
-  - :math: `S_A` is the actual result for Player A (1 for a win, 0 for a loss, 0.5 for a draw),
-  - :math: `E_A` is the expected score for Player A.
+  - :math:`R_A'` is the new rating for Player A,
+  - :math:`K.` is a constant that controls how much the ratings change (This is very important in Crichub, we will later explore it)
+  - :math:`S_A` is the actual result for Player A (1 for a win, 0 for a loss, 0.5 for a draw),
+  - :math:`E_A` is the expected score for Player A.
   
   
 Let's explore an example let's assume that Player A has the rating of 1500 and Player B has the rating of 3000.
