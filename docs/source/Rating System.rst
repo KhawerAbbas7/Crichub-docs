@@ -67,13 +67,13 @@ Let's explore K values First:
      * K Value for Bowler
      
    - * Wicket 
-     * 1
+     * 5
      * 10
    - * 1,2,3
-     * 7
+     * 6
      * 0.03
    - * Boundaries 
-     * 10
+     * 8
      * 0.06
    - * Dots
      * 1
