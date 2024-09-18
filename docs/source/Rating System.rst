@@ -79,3 +79,26 @@ Let's explore K values First:
      * 0.0001
      * 0.3
      
+     
+Each Run is a loss for bowler and win for batter, dot and wickets are win for bowler and loss for batter.
+
+Examples
+_________
+
+**Dot**
+
+Let's assume a batter with 3000 batting rating plays a dot against a bowler who's also a batter with bowling rating of 1000 rating.
+
+Let's calculate expected score for batter first:
+
+.. math::
+
+   E_A = \frac{1}{1 + 10^{(3000 - 1000)/400}} = 0.9999900001
+   
+As you can see batter is highly likely to win 
+
+Now let's calculate expected score for bowler:
+
+.. math::
+
+   E_A = \frac{1}{1 + 10^{(1000 - 3000)/400}} = 0.9999900001
