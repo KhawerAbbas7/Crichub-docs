@@ -70,13 +70,13 @@ Let's explore K values First:
      * 1
      * 6
    - * 1,2,3
-     * 2
+     * 7
      * 0.03
    - * Boundaries 
-     * 3
+     * 10
      * 0.06
    - * Dots
-     * 0.0001
+     * 0.001
      * 0.3
      
      
@@ -101,4 +101,10 @@ Now let's calculate expected score for bowler:
 
 .. math::
 
-   E_A = \frac{1}{1 + 10^{(1000 - 3000)/400}} = 0.9999900001
+   E_A = \frac{1}{1 + 10^{(1000 - 3000)/400}} = 0.0000099999
+   
+Now let's calculate the New Rating for Batter:
+
+.. math::
+
+   R_A' = 3000 + 0.001 \times (0 - 0.9999900001) = 2,999.99900001
