@@ -12,4 +12,4 @@ How This Works
 
 First of all we need an expected score for each delivery, let's take an example of Bowler against an All-Rounder:
 
-:math:  `\[E_A = \frac{1}{1 + 10^{(R_B - R_A)/400}}\]`
+:math:  `\[E_A = \\frac{1}{1 + 10^{(R_B - R_A)/400}}\]`
