@@ -70,10 +70,10 @@ Let's explore K values First:
      * 0.7
      * 10
    - * 1,2,3
-     * 0.05
+     * 2
      * 0.03
    - * Boundaries 
-     * 0.07
+     * 3
      * 0.06
    - * Dots
      * 1
