@@ -76,8 +76,8 @@ Let's explore K values First:
      * 3
      * 0.1
    - * Dots
+     * 0.06
      * 0.4
-     * 0.03
      
      
 Each Run is a loss for bowler and win for batter, dot and wickets are win for bowler and loss for batter.
