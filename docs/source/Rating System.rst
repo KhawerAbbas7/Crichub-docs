@@ -107,7 +107,7 @@ Now let's calculate the New Rating for Batter:
 
 .. math::
 
-   R_A' = 3000 + 1 \times (0 - 0.9999900001) = 2,999.0000099999
+   R_A' = 3000 + 0.4 \times (0 - 0.9999900001) = 2,999.0000099999
    
 Now let's calculate the new Rating for The Bowler
 
