@@ -71,7 +71,7 @@ Let's explore K values First:
      * 10
    - * 1,2,3
      * 2
-     * 0.09
+     * 0.08
    - * Boundaries 
      * 3
      * 0.1
