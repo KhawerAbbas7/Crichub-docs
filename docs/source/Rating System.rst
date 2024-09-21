@@ -76,7 +76,7 @@ Let's explore K values First:
      * 3
      * 0.06
    - * Dots
-     * 1
+     * 0.4
      * 0.03
      
      
