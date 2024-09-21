@@ -113,4 +113,4 @@ Now let's calculate the new Rating for The Bowler
 
 .. math::
 
-   R_A' = 1000 + 0.3 \times (1 - 0.0000099999) = 1,000.299997
+   R_A' = 1000 + 0.4 \times (1 - 0.0000099999) = 1,000.399996
