@@ -28,6 +28,10 @@ Economy System
      - 30 Days
      - 10K
      - 5K
+   * - Vote
+     - 12 Hours
+     - 12K
+     - -
 
 .. _Extras:
 
