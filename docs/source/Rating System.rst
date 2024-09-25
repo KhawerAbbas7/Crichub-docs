@@ -78,7 +78,8 @@ Let's explore K values First:
    - * Dots
      * 0.06
      * 0.4
-     
+
+.. note:: This is just a prototype, there's alot more involved in deciding K factors ingame.
      
 Each Run is a loss for bowler and win for batter, dot and wickets are win for bowler and loss for batter.
 
