@@ -82,6 +82,18 @@ Let's explore K values First:
      
 Each Run is a loss for bowler and win for batter, dot and wickets are win for bowler and loss for batter.
 
+**Milestone Rewards**
+
+.. list-table:: Milestone Rewards
+
+   - * Milestone 
+     * + Rating 
+   - * Fifty / 3Fer
+  	 * 5 
+   - * Century / 5fer 
+  	 * 10
+   - * 150 / 7Fer 
+  	 * 15
 Examples
 _________
 
